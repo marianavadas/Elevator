@@ -1,7 +1,8 @@
 # Elevator mini project
 ### Coded by Mariana Vadas-Arendt
 
-    In this project, I simulated an elevator using Java 21. The main code (Building class) will take in an array of
+    In this project, I simulated an elevator using Java 21. You can run this code using Elevator main and
+    following the prompts. The main code (Building class) will take in an array of
     floors and will visit each floor. The floors are generated from an array of floor numbers (integers).
     Each floor can have either a single button or up/down buttons. When the floor has a single button, it will chose 
     either the next floor on the list of floors given, or it will find the closest floor that needs to be visited. This
@@ -11,3 +12,7 @@
     which button was entered with the floor number at initialization. If the button is down, but there are no lower
     floors left to visit, then the elevator will go up. If the button is up, but there are no higher floors left to 
     visit, then the elevator will go down. 
+
+
+    Can also do this with a for loop in python. The input would need to be a list of tuples (floor number, button type)
+    but I chose to do it in java using OOP.
